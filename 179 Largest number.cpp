@@ -28,5 +28,4 @@ private:
 static bool compareNum(string a, string b) {
     return a + b > b + a;
 }
-   
 };
