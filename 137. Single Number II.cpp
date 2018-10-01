@@ -14,7 +14,7 @@ public:
             }
             
             if(sum%3)
-                ans|=x;
+               ans|=x;
         }
         return ans;
     }
