@@ -6,7 +6,7 @@ public:
         int i;
         for(i=0;i<nums.size();i++)
         {
-            res = res^nums[i];
+            res^=nums[i];
         }
        int mask = res & ~(res-1);
         int f=0;
