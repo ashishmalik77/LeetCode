@@ -13,7 +13,6 @@ public:
         
         set<int> s1( v.begin(), v.end() );
         v.assign( s1.begin(), s1.end() );
-       
         return v;
     }
 };
