@@ -8,7 +8,7 @@ public:
         {
             res^=nums[i];
         }
-       int mask = res & ~(res-1);
+        int mask = res & ~(res-1);
         int f=0;
         int s=0;
         for(i=0;i<nums.size();i++)
